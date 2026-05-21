@@ -70,7 +70,7 @@ A extensão foi testada em diferentes sites para comparar comportamentos de rast
 | Site | Privacy Score | Resultado observado |
 |---|---:|---|
 | UOL | 0 | Foram encontrados varios cookies persistentes e uso de Web Storage. Neste teste, a pontuação ficou baixa principalmente pela quantidade de cookies e armazenamento detectados. |
-| YouTube | 76 | Foram encontrados cookies persistentes e uso de Web Storage, mas poucos domínios externos no teste realizado. |
+| YouTube | 82 | Foram encontrados cookies persistentes e uso de Web Storage, mas poucos domínios externos no teste realizado. |
 | Google | 85 | A pagina inicial apresentou poucos sinais de rastreamento no teste, com cookies persistentes e uso de Web Storage, mas sem domínios externos detectados no momento da análise. |
 
 O resultado varia de acordo com o comportamento de cada site no momento do carregamento. Sites de noticia, como UOL, costumam carregar mais recursos relacionados a anúncios, métricas, consentimento de cookies e análise de audiência, o que reduz o Privacy Score.
@@ -78,6 +78,20 @@ O resultado varia de acordo com o comportamento de cada site no momento do carre
 No YouTube, a extensão encontrou cookies persistentes e armazenamento local, mas no teste mostrado foram detectados poucos domínios externos, resultando em uma pontuação intermediária. No Google, a página inicial apresentou menos elementos externos no momento da análise, por isso recebeu uma pontuação mais alta.
 
 Esses testes mostram que o Privacy Score não é fixo: ele muda conforme os recursos carregados pela página, os cookies existentes, o uso de armazenamento local, o cache do navegador e o momento em que o popup da extensão é aberto.
+
+## Imagens dos testes
+
+### Teste 1: UOL
+
+![Teste no UOL](Teste1.png)
+
+### Teste 2: YouTube
+
+![Teste no YouTube](Teste2.png)
+
+### Teste 3: Google
+
+![Teste no Google](Teste3.png)
 
 ## Como instalar
 
